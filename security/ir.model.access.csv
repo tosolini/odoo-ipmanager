@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_ipaddress,access_ipaddress,model_ipaddress,ipmanager_group_manager,1,1,1,1
+access_network,access_network,model_network,ipmanager_group_manager,1,1,1,1
+access_vlan,access_vlan,model_vlan,ipmanager_group_manager,1,1,1,1
+access_ipaddress_u,access_ipaddress_u,model_ipaddress,ipmanager_group_user,1,0,0,0
+access_network_u,access_network_u,model_network,ipmanager_group_user,1,0,0,0
+access_vlan_u,access_vlan_u,model_vlan,ipmanager_group_user,1,0,0,0

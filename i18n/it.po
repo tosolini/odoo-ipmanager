@@ -1,0 +1,320 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* ipmanager
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0-20210211\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-17 14:08+0000\n"
+"PO-Revision-Date: 2022-01-17 14:08+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/10 - 255.192.0.0 (4194302 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/11 - 255.224.0.0 (2097150 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/12 - 255.240.0.0 (1048574 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/13 - 255.248.0.0 (524286 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/14 - 255.252.0.0 (262142 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/15 - 255.254.0.0 (131070 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/16 - 255.255.0.0 (65534 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/17 - 255.255.128.0 (32766 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/18 - 255.255.192.0 (16382 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/19 - 255.255.224.0 (8190 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/20 - 255.255.240.0 (4094 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/21 - 255.255.248.0 (2046 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/22 - 255.255.252.0 (1022 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/23 - 255.255.254.0 (510 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/24 - 255.255.255.0 (254 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/25 - 255.255.255.128 (126 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/26 - 255.255.255.192 (62 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/27 - 255.255.255.224 (30 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/28 - 255.255.255.240 (14 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/29 - 255.255.255.248 (6 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/30 - 255.255.255.252 (2 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/8 - 255.0.0.0 (16777214 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: selection:network,subnet:0
+msgid "/9 - 255.128.0.0 (8388606 hosts)"
+msgstr ""
+
+#. module: ipmanager
+#: model:ir.model.fields,field_description:ipmanager.field_ipaddress__create_uid
+#: model:ir.model.fields,field_description:ipmanager.field_network__create_uid
+#: model:ir.model.fields,field_description:ipmanager.field_vlan__create_uid
+msgid "Created by"
+msgstr "Creato da"
+
+#. module: ipmanager
+#: model:ir.model.fields,field_description:ipmanager.field_ipaddress__create_date
+#: model:ir.model.fields,field_description:ipmanager.field_network__create_date
+#: model:ir.model.fields,field_description:ipmanager.field_vlan__create_date
+msgid "Created on"
+msgstr "Creato il"
+
+#. module: ipmanager
+#: model:ir.model.fields,field_description:ipmanager.field_ipaddress__is_dhcp
+msgid "DHCP"
+msgstr ""
+
+#. module: ipmanager
+#: model:ir.model.fields,field_description:ipmanager.field_ipaddress__hostname
+msgid "DNS Name"
+msgstr ""
+
+#. module: ipmanager
+#: model:ir.model.fields,field_description:ipmanager.field_vlan__description
+msgid "Description"
+msgstr "Descrizione"
+
+#. module: ipmanager
+#: model:ir.model.fields,field_description:ipmanager.field_ipaddress__display_name
+#: model:ir.model.fields,field_description:ipmanager.field_network__display_name
+#: model:ir.model.fields,field_description:ipmanager.field_vlan__display_name
+msgid "Display Name"
+msgstr "Nome visualizzato"
+
+#. module: ipmanager
+#: model_terms:ir.ui.view,arch_db:ipmanager.network_view_form
+msgid "Generate IP"
+msgstr "Genera IP"
+
+#. module: ipmanager
+#: model:ir.model.fields,field_description:ipmanager.field_ipaddress__id
+#: model:ir.model.fields,field_description:ipmanager.field_network__id
+#: model:ir.model.fields,field_description:ipmanager.field_vlan__id
+msgid "ID"
+msgstr ""
+
+#. module: ipmanager
+#: model:ir.model,name:ipmanager.model_ipaddress
+#: model:ir.model.fields,field_description:ipmanager.field_ipaddress__address_ip
+#: model:ir.model.fields,field_description:ipmanager.field_network__address_ip_ids
+msgid "IP Address"
+msgstr "Indirizzi IP"
+
+#. module: ipmanager
+#: model:ir.module.category,name:ipmanager.module_ipmanager
+#: model:ir.ui.menu,name:ipmanager.ipmanager_menu
+msgid "IP Manager"
+msgstr ""
+
+#. module: ipmanager
+#: model_terms:ir.ui.view,arch_db:ipmanager.ipaddress_view_form
+msgid "Inserimento dati IP"
+msgstr ""
+
+#. module: ipmanager
+#: model:ir.model.fields,field_description:ipmanager.field_ipaddress____last_update
+#: model:ir.model.fields,field_description:ipmanager.field_network____last_update
+#: model:ir.model.fields,field_description:ipmanager.field_vlan____last_update
+msgid "Last Modified on"
+msgstr "Ultima modifica il"
+
+#. module: ipmanager
+#: model:ir.model.fields,field_description:ipmanager.field_ipaddress__write_uid
+#: model:ir.model.fields,field_description:ipmanager.field_network__write_uid
+#: model:ir.model.fields,field_description:ipmanager.field_vlan__write_uid
+msgid "Last Updated by"
+msgstr "Ultimo aggiornamento di"
+
+#. module: ipmanager
+#: model:ir.model.fields,field_description:ipmanager.field_ipaddress__write_date
+#: model:ir.model.fields,field_description:ipmanager.field_network__write_date
+#: model:ir.model.fields,field_description:ipmanager.field_vlan__write_date
+msgid "Last Updated on"
+msgstr "Ultimo aggiornamento il"
+
+#. module: ipmanager
+#: model:ir.actions.act_window,name:ipmanager.ipaddress_action_window
+#: model:ir.ui.menu,name:ipmanager.menu_2
+msgid "List IP"
+msgstr "Elenco IP"
+
+#. module: ipmanager
+#: model:ir.actions.act_window,name:ipmanager.network_action_window
+msgid "List Network"
+msgstr "Elenco Network"
+
+#. module: ipmanager
+#: model:ir.actions.act_window,name:ipmanager.vlan_action_window
+msgid "List VLAN"
+msgstr "Elenco VLAN"
+
+#. module: ipmanager
+#: model:ir.model.fields,field_description:ipmanager.field_ipaddress__macaddress
+msgid "Mac Address"
+msgstr ""
+
+#. module: ipmanager
+#: model:res.groups,name:ipmanager.ipmanager_group_manager
+msgid "Manager"
+msgstr "Responsabile"
+
+#. module: ipmanager
+#: model:ir.model.fields,field_description:ipmanager.field_ipaddress__name
+#: model:ir.model.fields,field_description:ipmanager.field_network__name
+#: model:ir.model.fields,field_description:ipmanager.field_vlan__name
+msgid "Name"
+msgstr "Nome"
+
+#. module: ipmanager
+#: model_terms:ir.ui.view,arch_db:ipmanager.model_network_view_search
+msgid "Name host"
+msgstr "Nome Host"
+
+#. module: ipmanager
+#: model:ir.model,name:ipmanager.model_network
+#: model:ir.ui.menu,name:ipmanager.menu_1
+#: model_terms:ir.ui.view,arch_db:ipmanager.network_view_form
+msgid "Network"
+msgstr ""
+
+#. module: ipmanager
+#: model:ir.model.fields,field_description:ipmanager.field_network__network_address
+msgid "Network IP"
+msgstr ""
+
+#. module: ipmanager
+#: model:ir.model.fields,field_description:ipmanager.field_ipaddress__note
+#: model:ir.model.fields,field_description:ipmanager.field_network__note
+msgid "Note"
+msgstr "Nota"
+
+#. module: ipmanager
+#: model_terms:ir.ui.view,arch_db:ipmanager.ipaddress_view_search
+#: model_terms:ir.ui.view,arch_db:ipmanager.model_network_view_search
+msgid "Search Description"
+msgstr "Cerca Descrizione"
+
+#. module: ipmanager
+#: model:ir.model.fields,field_description:ipmanager.field_ipaddress__network_id
+#: model:ir.model.fields,field_description:ipmanager.field_network__subnet
+#: model:ir.model.fields,field_description:ipmanager.field_vlan__network_id
+msgid "Subnet"
+msgstr ""
+
+#. module: ipmanager
+#: model:ir.model.fields,field_description:ipmanager.field_ipaddress__switch
+msgid "Switch"
+msgstr ""
+
+#. module: ipmanager
+#: model:res.groups,name:ipmanager.ipmanager_group_user
+msgid "User"
+msgstr "Utente"
+
+#. module: ipmanager
+#: model:ir.model,name:ipmanager.model_vlan
+#: model:ir.model.fields,field_description:ipmanager.field_network__vlan_id
+#: model:ir.ui.menu,name:ipmanager.menu_3
+msgid "VLAN"
+msgstr ""
+
+#. module: ipmanager
+#: model:ir.model.fields,field_description:ipmanager.field_ipaddress__wall
+msgid "Wall"
+msgstr "Parete"
+
+#. module: ipmanager
+#: model_terms:ir.ui.view,arch_db:ipmanager.network_view_form
+msgid "are you sure?"
+msgstr "Sei sicuro?"
+
+#. module: ipmanager
+#: model_terms:ir.ui.view,arch_db:ipmanager.network_view_form
+msgid "message"
+msgstr "messaggio"
+

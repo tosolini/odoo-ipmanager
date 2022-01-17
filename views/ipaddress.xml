@@ -1,0 +1,70 @@
+<odoo>
+    <data>
+
+    <record model="ir.ui.view" id="ipaddress_list">
+        <field name="name">ipaddress list</field>
+        <field name="model">ipaddress</field>
+        <field name="arch" type="xml">
+        <tree>
+            <field name="name"/>
+            <field name="address_ip"/>
+            <field name="hostname"/>
+            <field name="network_id"/>
+        </tree>
+        </field>
+    </record>
+
+    <!-- ipaddress form view -->
+    <record id="ipaddress_view_form" model="ir.ui.view">
+        <field name="name">ipaddress.view.form</field>
+        <field name="model">ipaddress</field>
+        <field name="arch" type="xml">
+            <form string="Inserimento dati IP">
+                <sheet><group>
+                        <field name="name"/>
+                        <field name="address_ip"/>
+                        <field name="hostname"/>
+                        <field name="macaddress"/>
+                        </group>
+                        <group>
+                            <group>
+                            <field name="is_dhcp"/>
+                            <field name="network_id"/>
+                            </group>
+                            <group>
+                            <separator/>
+                            <field name="wall"/>
+                            <field name="switch"/>
+                            </group>
+                        </group>
+                        <group>
+                            <field name="note"/>
+                        </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- ipaddress search view -->
+    <record id="ipaddress_view_search" model="ir.ui.view">
+        <field name="name">ipaddress.view.search</field>
+        <field name="model">ipaddress</field>
+        <field name="arch" type="xml">
+            <search string="Search Description">
+                <field name="name"/>
+                <field name="address_ip"/>
+                <field name="hostname"/>
+                <filter name="Group by network" context="{'group_by': 'network_id'}" />
+            </search>
+        </field>
+    </record>
+
+    <!-- actions opening views on models -->
+    <record model="ir.actions.act_window" id="ipaddress_action_window">
+        <field name="name">List IP</field>
+        <field name="res_model">ipaddress</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    </data>
+</odoo>

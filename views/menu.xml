@@ -1,0 +1,14 @@
+<odoo>
+    <data>
+    <!-- Top menu item -->
+
+    <menuitem id="ipmanager_menu" name="IP Manager" action="network_action_window" web_icon="ipmanager,static/description/icon.png"/>
+
+    <!-- menu categories -->
+
+    <menuitem name="Network" id="ipmanager.menu_1" parent="ipmanager_menu"  action="network_action_window"/>
+    <menuitem name="List IP" id="ipmanager.menu_2" parent="ipmanager_menu" action="ipaddress_action_window"/>
+    <menuitem name="VLAN" id="ipmanager.menu_3" parent="ipmanager_menu" action="vlan_action_window"/>
+
+    </data>
+</odoo>
