@@ -15,3 +15,8 @@ After the field IP Address and Subnet are provided, you can press "Generate IP" 
 
 # IP Address
 This is the whole list of IP Address recorded to the database. Every one refer to their network. The main form offer some clue's like the wall port or Switch Port. You can record the hostname in the Local DNS, the MAC Address and a small note.
+
+# Requirements
+
+Python version 3.3 or above
+Odoo 12 Community edition
