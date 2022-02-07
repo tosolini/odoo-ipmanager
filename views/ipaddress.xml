@@ -5,7 +5,7 @@
         <field name="name">ipaddress list</field>
         <field name="model">ipaddress</field>
         <field name="arch" type="xml">
-        <tree>
+        <tree limit="254">
             <field name="name"/>
             <field name="address_ip"/>
             <field name="hostname"/>
