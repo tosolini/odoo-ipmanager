@@ -44,7 +44,7 @@
                     </group>
                     <group>
                         <field name="address_ip_ids" nolabel="1">
-                            <tree>
+                            <tree limit="254">
                                 <field name="name"/>
                                 <field name="address_ip"/>
                                 <field name="hostname"/>
